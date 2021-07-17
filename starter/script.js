@@ -11,6 +11,7 @@ document.querySelector('.guess').value = 24;
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highscore = 0;
+let newchange = 'being made for testing!';
 
 const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
